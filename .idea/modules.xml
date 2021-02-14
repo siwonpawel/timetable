@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/timetable-api/timetable-api.iml" filepath="$PROJECT_DIR$/timetable-api/timetable-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timetable-data/timetable-data.iml" filepath="$PROJECT_DIR$/timetable-data/timetable-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timetable-domain/timetable-domain.iml" filepath="$PROJECT_DIR$/timetable-domain/timetable-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timetable-parent.iml" filepath="$PROJECT_DIR$/timetable-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timetable-server/timetable-server.iml" filepath="$PROJECT_DIR$/timetable-server/timetable-server.iml" />
+    </modules>
+  </component>
+</project>

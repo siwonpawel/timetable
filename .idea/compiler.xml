@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="timetable-data" />
+        <module name="timetable-api" />
+        <module name="timetable-server" />
+        <module name="timetable-domain" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="timetable-api" target="11" />
+      <module name="timetable-data" target="11" />
+      <module name="timetable-data (1)" target="1.11" />
+      <module name="timetable-domain" target="11" />
+      <module name="timetable-parent" target="1.11" />
+      <module name="timetable-server" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="timetable-api" options="-parameters" />
+      <module name="timetable-data" options="-parameters" />
+      <module name="timetable-data (1)" options="-parameters" />
+      <module name="timetable-domain" options="-parameters" />
+      <module name="timetable-server" options="-parameters" />
+    </option>
+  </component>
+</project>
